@@ -1,7 +1,8 @@
 # cadastroSistemaConexao
 Script to register employess on external system.
 
-The script reads an Excel file with all the information needed and automatic fill up the form in the website.
+The script reads an Excel file with all the information needed and automatic fill up the form in the website using Selenium.
+The website sometimes requires a captcha before login in so the script connect to a Chrome instance running on a specific port. 
 
 # Libraries
 - Pandas: used to read/write the Excel file;
